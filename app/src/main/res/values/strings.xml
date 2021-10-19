@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Fit Sleep</string>
+    <string name="reconnect">Reconnect</string>
+    <string name="visualize">Visualize</string>
 </resources>

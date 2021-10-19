@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav"
+    app:startDestination="@id/fitAskPermissionFragment">
+
+    <fragment
+        android:id="@+id/fitAskPermissionFragment"
+        android:name="jb.production.fitsleep.screens.FitAskPermissionFragment"
+        android:label="FitAskPermissionFragment"
+        tools:layout="@layout/fragment_fit_ask_permission">
+        <action
+            android:id="@+id/action_fitAskPermissionFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="jb.production.fitsleep.screens.HomeFragment"
+        android:label="HomeFragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_visualizationFragment"
+            app:destination="@id/visualizationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/visualizationFragment"
+        android:name="jb.production.fitsleep.screens.VisualizationFragment"
+        android:label="VisualizationFragment"
+        tools:layout="@layout/fragment_visualization" />
+</navigation>

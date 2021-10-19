@@ -4,7 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Work/My_work/android_test/FitSleep/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Work/My_work/android_test/FitSleep/app/src/main/res/layout/daily_tab_fragment.xml" value="0.17083333333333334" />
         <entry key="..\:/Work/My_work/android_test/FitSleep/app/src/main/res/layout/fragment_fit_ask_permission.xml" value="0.1" />
+        <entry key="..\:/Work/My_work/android_test/FitSleep/app/src/main/res/layout/fragment_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/Work/My_work/android_test/FitSleep/app/src/main/res/layout/fragment_visualization.xml" value="0.17083333333333334" />
+        <entry key="..\:/Work/My_work/android_test/FitSleep/app/src/main/res/layout/monthly_tab_fragment.xml" value="0.1" />
+        <entry key="..\:/Work/My_work/android_test/FitSleep/app/src/main/res/layout/weekly_tab_fragment.xml" value="0.18489583333333334" />
       </map>
     </option>
   </component>
