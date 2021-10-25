@@ -2,4 +2,6 @@
     <string name="app_name">Fit Sleep</string>
     <string name="reconnect">Reconnect</string>
     <string name="visualize">Visualize</string>
+    <string name="web_client_id">94669902384-g52667nneqkbvvborbfnk28n87j2k7fm.apps.googleusercontent.com</string>
+    <string name="web_client_secret">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</string>
 </resources>

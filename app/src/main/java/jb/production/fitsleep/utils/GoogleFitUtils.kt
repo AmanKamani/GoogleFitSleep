@@ -16,8 +16,9 @@ class GoogleFitUtils @Inject constructor(private val context: Context) {
         const val FITNESS_DATA_REQUEST_CODE = 101
     }
 
-    private val fitnessOptions = FitnessOptions.builder()
+    val fitnessOptions = FitnessOptions.builder()
         .addDataType(DataType.TYPE_SLEEP_SEGMENT, FitnessOptions.ACCESS_READ)
+        .addDataType(DataType.TYPE_SLEEP_SEGMENT, FitnessOptions.ACCESS_WRITE)
         .build()
 
     fun getGoogleAccount() = GoogleSignIn.getAccountForExtension(context, fitnessOptions)
